@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;1,900&display=swap");
+
+/* 
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center;
+  background-color: hsl(225, 100%, 94%);
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  section {
+    background-color: #fff;
+    width: 90vw;
+    margin: 0 auto;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    h1 {
+      color: hsl(223, 47%, 23%);
+      font-size: 900;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: hsl(224, 23%, 55%);
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+
+    .img-container > img {
+      width: 100%;
+    }
+
+    .info-container {
+      padding: 2rem;
+      text-align: center;
+
+      .music-plan {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: hsl(225, 100%, 98%);
+        padding: 0.8rem;
+        border-radius: 0.7rem;
+        margin: 1.4rem 0;
+
+        h3 {
+          font-size: 1rem;
+          color: hsl(223, 47%, 23%);
+        }
+
+        a {
+          font-weight: 700;
+          font-size: 0.85rem;
+          cursor: pointer;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+
+      button {
+        background-color: hsl(245, 75%, 52%);
+        color: #fff;
+        font-weight: 700;
+        padding: 1rem;
+        width: 100%;
+        border: none;
+        margin-bottom: 1.5rem;
+        border-radius: 0.8rem;
+        font-size: 1rem;
+        box-shadow: 0px 5px 30px 0px hsla(245, 75%, 52%, 0.4);
+        cursor: pointer;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+      h4 {
+        color: hsl(224, 23%, 55%);
+        cursor: pointer;
+
+        &:hover {
+            color: #222;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: hsl(224, 23%, 55%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+}
+
+@media screen and (min-width: 375px) {
+  section {
+    max-width: 26rem;
+
+    .info-container {
+      padding: 4rem;
+    }
+  }
+}

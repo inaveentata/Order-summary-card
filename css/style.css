@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;1,900&display=swap");
+/* 
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-position: center;
+  background-color: #e0e8ff;
+}
+
+main {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section {
+  background-color: #fff;
+  width: 90vw;
+  margin: 0 auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+main section h1 {
+  color: #1f2f56;
+  font-size: 900;
+  margin-bottom: 1rem;
+}
+
+main section p {
+  color: #7280a7;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+main section .img-container > img {
+  width: 100%;
+}
+
+main section .info-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+main section .info-container .music-plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f5f7ff;
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  margin: 1.4rem 0;
+}
+
+main section .info-container .music-plan h3 {
+  font-size: 1rem;
+  color: #1f2f56;
+}
+
+main section .info-container .music-plan a {
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+main section .info-container .music-plan a:hover {
+  text-decoration: none;
+}
+
+main section .info-container button {
+  background-color: #3829e0;
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  margin-bottom: 1.5rem;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(56, 41, 224, 0.4);
+          box-shadow: 0px 5px 30px 0px rgba(56, 41, 224, 0.4);
+  cursor: pointer;
+}
+
+main section .info-container button:hover {
+  opacity: 0.8;
+}
+
+main section .info-container h4 {
+  color: #7280a7;
+  cursor: pointer;
+}
+
+main section .info-container h4:hover {
+  color: #222;
+}
+
+footer {
+  background-color: #7280a7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 4rem;
+}
+
+@media screen and (min-width: 375px) {
+  section {
+    max-width: 26rem;
+  }
+  section .info-container {
+    padding: 4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
