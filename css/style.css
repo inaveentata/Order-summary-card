@@ -130,12 +130,12 @@ main section .info-container button:hover {
   opacity: 0.8;
 }
 
-main section .info-container h4 {
+main section .info-container h3 {
   color: #7280a7;
   cursor: pointer;
 }
 
-main section .info-container h4:hover {
+main section .info-container h3:hover {
   color: #222;
 }
 
